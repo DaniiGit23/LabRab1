@@ -1,5 +1,8 @@
 # NoviyRepazitory
-Инфокоммуникационные технологии и системы связи, 11.03.02, Кондратенко Даниил Витальевич.
+
+ITS-b-o-22-1, 11.03.02, Kondratenko Daniil Vital’evich.
+
+Programm:
 
 #include <stdio.h>
 #include <iostream>
@@ -15,3 +18,10 @@ int i, j;
 	scanf_s("%d", &i);
 	printf("j:");
 	scanf_s("%d", &j);
+if (i < j) i++;
+
+else
+	{
+		j = i - 3;
+		i++;
+	}
