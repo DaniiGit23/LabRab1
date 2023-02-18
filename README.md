@@ -25,3 +25,6 @@ else
 		j = i - 3;
 		i++;
 	}
+printf("i= %d\ j= %d", i, j);
+	return 0;
+}
